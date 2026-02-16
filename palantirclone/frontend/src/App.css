@@ -1,0 +1,46 @@
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--color-sidebar);
+  border-bottom: 2px solid var(--color-raster);
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  padding: 20px 28px;
+}
+
+.app-title {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.app-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.graph-container {
+  flex: 1;
+  background-color: var(--color-background);
+  position: relative;
+}

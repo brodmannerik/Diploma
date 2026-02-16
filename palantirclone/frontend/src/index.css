@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: #1F1F1F;
+  --color-sidebar: #181818;
+  --color-topbar: #181818;
+  --color-raster: #2D2D2D;
+  --color-text: #E0E0E0;
+  --color-text-dark: #858585;
+  --color-accent: #0E639C;
+  --color-danger: #F48771;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  overflow: hidden;
+}
+
+.bp5-dark {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent);
+  opacity: 0.8;
+}
+
+/* Global Blueprint customization */
+.bp5-button {
+  background-color: var(--color-sidebar);
+  color: var(--color-text);
+  border-color: var(--color-raster);
+}
+
+.bp5-button:hover {
+  background-color: var(--color-text);
+  color: var(--color-topbar);
+}
+
+.bp5-card {
+  background-color: var(--color-sidebar);
+  border-color: var(--color-raster);
+}
